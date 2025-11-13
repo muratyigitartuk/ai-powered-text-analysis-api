@@ -71,12 +71,3 @@ These are optional; the default `simple` provider requires no extra models.
 - Avoid logging raw text payloads or secrets; log sizes and request IDs instead.
 - Do not store user texts persistently unless explicitly required and compliant with your privacy policy.
 
-## Push To GitHub
-- Initialize and push:
-  - `git init`
-  - `git add .`
-  - `git commit -m "feat: AI text analysis API with frontend"`
-  - `git branch -M main`
-  - `git remote add origin https://github.com/<your-user>/<your-repo>.git`
-  - `git push -u origin main`
-- GitHub renders Mermaid diagrams in README by default.
