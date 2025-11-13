@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+*.env
+.python-version
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+.cache/
+
+# Data / Models
+models/
+data/
+downloads/
+.secrets/
+*.db
+*.sqlite*
+*.bak
+*.tmp
+*.lock
+
+# Certificates / Keys
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+
+
+# Node/Web
+node_modules/
+public/*.map

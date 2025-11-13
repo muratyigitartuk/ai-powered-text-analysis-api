@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Text Analysis</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Text Analysis</h1>
+    <div class="provider" id="provider">Provider: ...</div>
+    <textarea id="text" placeholder="Enter text..." rows="10"></textarea>
+    <div class="options">
+      <label><input type="checkbox" id="opt-sent" checked /> Sentiment</label>
+      <label><input type="checkbox" id="opt-key" checked /> Keyphrases</label>
+      <label><input type="checkbox" id="opt-sum" checked /> Summary</label>
+    </div>
+    <button id="analyze">Analyze</button>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
