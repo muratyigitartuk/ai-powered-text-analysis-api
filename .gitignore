@@ -47,6 +47,7 @@ models/
 data/
 downloads/
 .secrets/
+/.trae/
 *.db
 *.sqlite*
 *.bak

@@ -2,6 +2,9 @@
 
 A FastAPI backend with a minimal web UI that analyzes user text and returns sentiment, keyphrases, and a brief summary. Pluggable NLP providers support simple heuristics, Hugging Face Transformers, and spaCy.
 
+## Screenshot
+![Frontend Screenshot](paint.png)
+
 ## Features
 - Async REST API `POST /analyze` and `GET /health`
 - Concurrent sentiment, keyphrase extraction, and summary
